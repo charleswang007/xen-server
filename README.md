@@ -27,7 +27,9 @@ Resource Pool 有以下特點：
 
 ![alt text](xen-hypervisor.png "Xen Hypervisor")
 Xen Hypervisor是圖中箭頭所指的地方，這裡提供了控制介面和虛擬硬體，它和Dom0需相互搭配，以便管理整臺實體主機和VM的資源。在XenServer所搭配的Xen是4.4版。
+
 ![alt text](vGPU.png "vGPU")
 圖中是XenServer的vGPU支援架構與彼此的細部運作方式，主要分為三大部分，最底層是Nvidia GPU，中間是Xen Hypervisor，上層是dorm0和Windows VM，需要安裝Nvidia的核心模組、外掛，以及用戶端驅動程式。
+
 ![alt text](vGPU1.png "vGPU")
 XenServer 6.2支援了3種GPU虛擬化方式，由左而右，分別是GPU Sharing、GPU Pass-through、vGPU。6.5版支援的vGPU程度更高，可支撐高達96臺應用vGPU的VM。
