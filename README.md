@@ -35,6 +35,6 @@ Xen Hypervisor是圖中箭頭所指的地方，這裡提供了控制介面和虛
 XenServer 6.2支援了3種GPU虛擬化方式，由左而右，分別是GPU Sharing、GPU Pass-through、vGPU。6.5版支援的vGPU程度更高，可支撐高達96臺應用vGPU的VM。
 
 ![alt text](hypervisor.png "hypervisor")
-![alt text](hypervisor1.png "hypervisor")
+![alt text](hypervisor1.PNG "hypervisor")
 Xen分成多個層級 (layer) 來執行。它將 Linux 的核心修改過後， 再使用這個修改過後的核心開機，而開機後先載入 Xen 的監督器 (Hypervisor)，並且啟動第一個在上頭的作業系統，我們稱它為 domain-0。
 
