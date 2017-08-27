@@ -39,3 +39,5 @@ XenServer 6.2支援了3種GPU虛擬化方式，由左而右，分別是GPU Shari
 
 Xen分成多個層級 (layer) 來執行。它將 Linux 的核心修改過後， 再使用這個修改過後的核心開機，而開機後先載入 Xen 的監督器 (Hypervisor)，並且啟動第一個在上頭的作業系統，我們稱它為 domain-0。
 
+## Citrix XenServer 安裝教學
+[https://www.youtube.com/watch?v=ya2ZgybmyyY)
